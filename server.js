@@ -1,6 +1,13 @@
 //IMPORTAR express FORMA MAIS NOVA  
 //OBS: NO JSON PRECISA COLOCAR "TYPE:'MODULE,"
+
 import express from 'express'
+
+//Import cors para conectar com o nosso front end sem barreira
+
+import cors from 'cors'
+
+
 //IMPORTAR prisma client
 
 import { PrismaClient } from '@prisma/client'
@@ -12,6 +19,9 @@ const app = express()
 
 app.use(express.json()) //Faz o express entender o json como req
 
+//Executar o cors
+
+app.use(cors())
 
 
 //ROTA
@@ -79,7 +89,7 @@ app.listen(3000)
      -Criar  um usuário
      -Listar todos os usuários
      -Editar um usuário
-     -Deletar ukm usuário
+     -Deletar um usuário
 
 */
 
