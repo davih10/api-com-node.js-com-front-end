@@ -1,0 +1,23 @@
+{
+  "name": "api-com-node.js-com-front-end",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "api com node.js com integração ao front end cadastro de usuario junto ao banco de dadoss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.1.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "prisma": "^6.1.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
